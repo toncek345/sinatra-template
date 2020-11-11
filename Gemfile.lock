@@ -3,7 +3,6 @@ GEM
   specs:
     ast (2.4.0)
     backport (1.1.2)
-    backports (3.17.1)
     benchmark (0.1.0)
     coderay (1.1.2)
     e2mmap (0.1.0)
@@ -11,7 +10,6 @@ GEM
     maruku (0.7.3)
     method_source (1.0.0)
     mini_portile2 (2.4.0)
-    multi_json (1.14.1)
     mustermann (1.1.1)
       ruby2_keywords (~> 0.0.1)
     nokogiri (1.10.9)
@@ -25,7 +23,7 @@ GEM
     pry-doc (1.1.0)
       pry (~> 0.11)
       yard (~> 0.9.11)
-    rack (2.2.2)
+    rack (2.2.3)
     rack-protection (2.0.8.1)
       rack
     rainbow (3.0.0)
@@ -47,13 +45,6 @@ GEM
       mustermann (~> 1.0)
       rack (~> 2.0)
       rack-protection (= 2.0.8.1)
-      tilt (~> 2.0)
-    sinatra-contrib (2.0.8.1)
-      backports (>= 2.8.2)
-      multi_json
-      mustermann (~> 1.0)
-      rack-protection (= 2.0.8.1)
-      sinatra (= 2.0.8.1)
       tilt (~> 2.0)
     solargraph (0.39.7)
       backport (~> 1.1)
@@ -81,12 +72,11 @@ DEPENDENCIES
   method_source
   pry
   pry-doc
-  rack (~> 2.2.2)
+  rack (~> 2.2.3)
   rake (~> 13.0.1)
   require_all (~> 3.0.0)
   rubocop
   sinatra (~> 2.0.8.1)
-  sinatra-contrib (~> 2.0.8.1)
   solargraph
   yard
 
